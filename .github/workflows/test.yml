@@ -1,0 +1,11 @@
+name: Action
+run-name: action
+on: [push]
+
+jobs: 
+  greeting:
+    runs-on: ubuntu-latest
+      steps:
+        - run: "hello world"
+        - run: "what's your name?"
+
