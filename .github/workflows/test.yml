@@ -6,6 +6,6 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
-      - run: "Hello world"
-      - run: "What's your name?"
+      - run: echo "Hello world"
+      - run: echo "What's your name?"
 
