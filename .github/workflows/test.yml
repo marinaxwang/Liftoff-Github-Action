@@ -5,7 +5,7 @@ on: [push]
 jobs: 
   greeting:
     runs-on: ubuntu-latest
-      steps:
-        - run: "hello world"
-        - run: "what's your name?"
+    steps:
+      - run: "Hello world"
+      - run: "What's your name?"
 
